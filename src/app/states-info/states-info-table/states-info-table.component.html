@@ -1,0 +1,12 @@
+<div class="states_info_table_wrapper">
+    <table class="states_info_table">
+        <tbody  class="states_info_table_body">
+            @for(item of tableData; track item.id) {
+                <tr  class="states_info_table_row">
+                    <td class="states_info_table_column left">{{item.item}}</td>
+                    <td class="states_info_table_column right">{{item.value}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

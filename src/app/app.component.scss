@@ -1,0 +1,17 @@
+.app_main {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+
+    .app_main_content_area {
+        min-height: calc(100% - 10px - 40px);
+        display: flex;
+        flex-direction: row;
+        
+        .app_main_content {
+            width: 100%;
+            min-height: calc(100% - 10px - 40px);
+            padding: 5px;
+        }
+    }
+}

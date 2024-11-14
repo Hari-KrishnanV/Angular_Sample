@@ -1,0 +1,13 @@
+.app_footer {
+    height: 30px;
+    padding: 5px;
+    background-color: black;
+
+    .app_footer_container {
+        width: calc(100% - 10px);;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

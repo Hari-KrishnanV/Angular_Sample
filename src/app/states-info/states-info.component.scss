@@ -1,0 +1,34 @@
+.states_info_wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .states_info_header {
+        width: 100%;
+        height: 50px;
+    }
+
+    .states_info_content {
+        width: 100%;
+        height: calc(100% - 50px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .states_info_content_world_map {
+            width: 50%;
+            height: 100%;
+            border: 1px solid grey;
+        }
+
+        .states_info_content_data {
+            width: 50%;
+            height: 100%;
+            border: 1px solid grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

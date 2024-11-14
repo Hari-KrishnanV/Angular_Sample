@@ -1,0 +1,13 @@
+<div class="states_info_wrapper">
+    <div class="states_info_header">
+        <span class="states_info_header_text">US Population Density</span>
+    </div>
+
+    <div class="states_info_content">
+        <app-map class="states_info_content_world_map" [data]="statesInfo" [heatMapKey]="colorCodeBy" (featureHighlighted)="onStateHighlighted($event)"></app-map>
+        <div class="states_info_content_data">
+            <app-states-info-table style="width: 100%; height: 100%;" [data]="selectedStateInfo"></app-states-info-table>
+            <!-- {{ selectedStateInfo | json }} -->
+        </div>
+    </div>
+</div>
